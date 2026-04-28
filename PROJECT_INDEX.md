@@ -23,6 +23,7 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 │   ├── deduplication.md
 │   ├── install.md
 │   ├── learning-log.md
+│   ├── onboarding.md
 │   ├── self-assessment.md
 │   └── workflow-improvement-loop.md
 ├── rules/
@@ -67,6 +68,7 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 | `.cursor/rules/project-index.mdc` | Local/project rule reminding agents to keep this index current. | Editing files in this repo that affect navigation. |
 | `docs/concepts.md` | Short explanation of the fundamentals behind the pack. | Explaining why the pack is structured this way. |
 | `docs/install.md` | Windows, macOS, and Linux install instructions. | Installing globally or copying optional templates. |
+| `docs/onboarding.md` | Practical onboarding guide with prompts and expected outcomes for new and existing projects. | Showing a user how to apply the pack after installation. |
 | `docs/deduplication.md` | Checklist for removing overlapping personal and project rules. | Cleaning up old Cursor guidance after installing the pack. |
 | `docs/self-assessment.md` | Scorecard for assessing rules, skills, docs, and AI-assisted workflows against the pack principles. | Reviewing workflow friction or deciding whether guidance should be updated. |
 | `docs/workflow-improvement-loop.md` | Reviewed loop for observing, scoring, proposing, validating, updating, and recording workflow improvements. | Turning repeated AI workflow lessons into durable guidance. |

@@ -80,6 +80,7 @@ $RequiredFiles = @(
     "docs/concepts.md",
     "docs/deduplication.md",
     "docs/install.md",
+    "docs/onboarding.md",
     "docs/self-assessment.md",
     "docs/workflow-improvement-loop.md",
     "docs/learning-log.md",

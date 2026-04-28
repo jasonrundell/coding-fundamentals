@@ -19,6 +19,7 @@ The pack turns a few durable software fundamentals into Cursor guidance:
 - `skills/fundamentals-skill-orchestrator/SKILL.md`: opt-in skill for creating or refreshing the full fundamentals skill family.
 - `docs/concepts.md`: short explanation of the core principles.
 - `docs/install.md`: Windows, macOS, and Linux install instructions.
+- `docs/onboarding.md`: practical prompts and expected outcomes for new and existing projects.
 - `docs/deduplication.md`: guidance for removing overlapping personal or project rules.
 - `docs/self-assessment.md`: scorecard for reviewing rules, skills, docs, and workflows.
 - `docs/workflow-improvement-loop.md`: reviewed loop for turning AI workflow lessons into durable guidance.
@@ -35,6 +36,7 @@ Avoid making the entire philosophy always-on. The full orchestrator skill contai
 ## Quick Start
 
 Read `docs/install.md` for platform-specific instructions.
+Use `docs/onboarding.md` after installation for real-world prompts that apply the rules and skills to new or existing projects.
 
 Typical setup:
 
