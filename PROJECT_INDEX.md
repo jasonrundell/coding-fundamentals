@@ -21,7 +21,10 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 ├── docs/
 │   ├── concepts.md
 │   ├── deduplication.md
-│   └── install.md
+│   ├── install.md
+│   ├── learning-log.md
+│   ├── self-assessment.md
+│   └── workflow-improvement-loop.md
 ├── rules/
 │   ├── agent-operating-defaults.mdc
 │   ├── css-style-reuse.mdc
@@ -33,7 +36,9 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 │   └── web-accessibility-seo.mdc
 ├── scripts/
 │   ├── install.ps1
-│   └── install.sh
+│   ├── install.sh
+│   ├── validate.ps1
+│   └── validate.sh
 ├── skills/
 │   └── fundamentals-skill-orchestrator/
 │       └── SKILL.md
@@ -63,14 +68,21 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 | `docs/concepts.md` | Short explanation of the fundamentals behind the pack. | Explaining why the pack is structured this way. |
 | `docs/install.md` | Windows, macOS, and Linux install instructions. | Installing globally or copying optional templates. |
 | `docs/deduplication.md` | Checklist for removing overlapping personal and project rules. | Cleaning up old Cursor guidance after installing the pack. |
+| `docs/self-assessment.md` | Scorecard for assessing rules, skills, docs, and AI-assisted workflows against the pack principles. | Reviewing workflow friction or deciding whether guidance should be updated. |
+| `docs/workflow-improvement-loop.md` | Reviewed loop for observing, scoring, proposing, validating, updating, and recording workflow improvements. | Turning repeated AI workflow lessons into durable guidance. |
+| `docs/learning-log.md` | Short record of accepted, deferred, or rejected workflow lessons. | Understanding why the guidance pack changed over time. |
 | `scripts/install.ps1` | Conservative Windows PowerShell installer. | Installing the global rule and orchestrator skill on Windows. |
 | `scripts/install.sh` | Conservative macOS/Linux installer. | Installing the global rule and orchestrator skill on macOS or Linux. |
+| `scripts/validate.ps1` | Windows PowerShell health check for required files, rule metadata, platform docs, README links, and index entries. | Verifying changes to docs, rules, skills, scripts, or `PROJECT_INDEX.md` on Windows. |
+| `scripts/validate.sh` | macOS/Linux health check for required files, rule metadata, platform docs, README links, and index entries. | Verifying changes to docs, rules, skills, scripts, or `PROJECT_INDEX.md` on macOS or Linux. |
 
 ## Agent Notes
 
 - This repo is an open-source Cursor rules and skills pack, not application runtime code.
 - Keep `rules/global-fundamentals.mdc` tiny; put detailed behavior into opt-in rule templates or skills.
 - Keep `.cursor/` as local/example consumer config. The canonical reusable assets live in top-level `rules/` and `skills/`.
+- Use `docs/self-assessment.md` and `docs/workflow-improvement-loop.md` before turning one-off AI workflow friction into durable guidance.
+- Run `scripts/validate.ps1` on Windows or `scripts/validate.sh` on macOS/Linux after changing reusable guidance or navigation files.
 - Keep future entries lean: path, purpose, and when to read. Add detail only when it helps agents avoid broad exploration.
 
 ## Maintenance Checklist

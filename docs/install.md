@@ -128,3 +128,25 @@ Copy-Item "rules\react-typescript.mdc" ".cursor\rules\"
 1. Restart Cursor or reload the window if the new rules/skills are not picked up.
 2. Use `docs/deduplication.md` to remove overlapping old rules.
 3. Keep only small, stable guidance always-on.
+
+## Validating This Pack
+
+Run validation after changing docs, rules, skills, scripts, or `PROJECT_INDEX.md`.
+
+Windows:
+
+```powershell
+.\scripts\validate.ps1
+```
+
+macOS:
+
+```bash
+./scripts/validate.sh
+```
+
+Linux:
+
+```bash
+./scripts/validate.sh
+```

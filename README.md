@@ -20,7 +20,11 @@ The pack turns a few durable software fundamentals into Cursor guidance:
 - `docs/concepts.md`: short explanation of the core principles.
 - `docs/install.md`: Windows, macOS, and Linux install instructions.
 - `docs/deduplication.md`: guidance for removing overlapping personal or project rules.
+- `docs/self-assessment.md`: scorecard for reviewing rules, skills, docs, and workflows.
+- `docs/workflow-improvement-loop.md`: reviewed loop for turning AI workflow lessons into durable guidance.
+- `docs/learning-log.md`: concise record of accepted or deferred workflow lessons.
 - `scripts/install.ps1` and `scripts/install.sh`: conservative install scripts.
+- `scripts/validate.ps1` and `scripts/validate.sh`: repo health checks for docs, rules, scripts, and index entries.
 
 ## Recommended Use
 
@@ -45,6 +49,24 @@ Typical setup:
 
 Other rules are templates and default to `alwaysApply: false`. Enable them only where they fit the project.
 
+## Self-Assessment
+
+Use `docs/self-assessment.md` and `docs/workflow-improvement-loop.md` after meaningful AI-assisted work. The project should notice repeated friction, propose small guidance updates, validate them, and record accepted lessons in `docs/learning-log.md`.
+
+Run repo health checks before finishing changes to reusable guidance:
+
+Windows:
+
+```powershell
+.\scripts\validate.ps1
+```
+
+macOS and Linux:
+
+```bash
+./scripts/validate.sh
+```
+
 ## Contributing
 
 Keep contributions small and portable:
@@ -53,6 +75,7 @@ Keep contributions small and portable:
 - Keep rules concise, ideally under 50 lines.
 - Do not include project-specific secrets, organization names, database identifiers, or private workflow details.
 - Include Windows, macOS, and Linux notes when changing installation docs.
+- Run the validation script after changing docs, rules, skills, scripts, or `PROJECT_INDEX.md`.
 
 ## License
 
