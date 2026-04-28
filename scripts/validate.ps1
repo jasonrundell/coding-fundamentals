@@ -90,7 +90,8 @@ $RequiredFiles = @(
     "scripts/validate.ps1",
     "scripts/validate.sh",
     "rules/global-fundamentals.mdc",
-    "skills/coding-fundamentals/SKILL.md"
+    "skills/coding-fundamentals/SKILL.md",
+    "skills/grill-me/SKILL.md"
 )
 
 foreach ($File in $RequiredFiles) {

@@ -53,6 +53,10 @@ copy_safe_directory \
   "$repo_root/skills/coding-fundamentals" \
   "$skills_target/coding-fundamentals"
 
+copy_safe_directory \
+  "$repo_root/skills/grill-me" \
+  "$skills_target/grill-me"
+
 echo ""
 echo "Install complete."
 echo "Optional project rule templates remain in: $repo_root/rules"

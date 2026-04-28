@@ -81,6 +81,7 @@ required_files=(
   "scripts/validate.sh"
   "rules/global-fundamentals.mdc"
   "skills/coding-fundamentals/SKILL.md"
+  "skills/grill-me/SKILL.md"
 )
 
 for file in "${required_files[@]}"; do

@@ -89,6 +89,19 @@ Expected result:
 - The project keeps domain-specific rules close to the codebase.
 - The index reflects the new navigation path for future agents.
 
+Audit and improvement prompt:
+
+```text
+Use the coding-fundamentals skill to audit this existing project for AI-assisted development readiness. Read PROJECT_INDEX.md if it exists, then inspect the repo structure, current rules, skills, docs, tests, and validation commands. Identify the smallest set of improvements that would reduce context waste, strengthen feedback loops, and make module boundaries easier for future agents to navigate. Do not make changes yet.
+```
+
+Expected result:
+
+- The agent loads the `coding-fundamentals` skill for a project-level audit.
+- The audit separates immediate fixes from larger design or workflow recommendations.
+- Recommendations name the affected artifact, such as `PROJECT_INDEX.md`, `.cursor/rules/`, tests, docs, or validation scripts.
+- The agent proposes a small follow-up plan that improves the project without adding broad always-on guidance by default.
+
 ## Using Rules During Feature Work
 
 Rules work best when the prompt names the project context, the expected verification, and the relevant files.

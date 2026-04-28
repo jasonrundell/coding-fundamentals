@@ -13,6 +13,7 @@ Recommended personal global install:
 
 - `rules/global-fundamentals.mdc`
 - `skills/coding-fundamentals/`
+- `skills/grill-me/`
 
 Optional project templates:
 
@@ -45,6 +46,7 @@ New-Item -ItemType Directory -Force "$env:USERPROFILE\.cursor\rules" | Out-Null
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.cursor\skills" | Out-Null
 Copy-Item "rules\global-fundamentals.mdc" "$env:USERPROFILE\.cursor\rules\global-fundamentals.mdc"
 Copy-Item "skills\coding-fundamentals" "$env:USERPROFILE\.cursor\skills\" -Recurse
+Copy-Item "skills\grill-me" "$env:USERPROFILE\.cursor\skills\" -Recurse
 ```
 
 ## macOS
@@ -74,6 +76,7 @@ Manual install:
 mkdir -p "$HOME/.cursor/rules" "$HOME/.cursor/skills"
 cp "rules/global-fundamentals.mdc" "$HOME/.cursor/rules/global-fundamentals.mdc"
 cp -R "skills/coding-fundamentals" "$HOME/.cursor/skills/"
+cp -R "skills/grill-me" "$HOME/.cursor/skills/"
 ```
 
 ## Linux
@@ -103,6 +106,7 @@ Manual install:
 mkdir -p "$HOME/.cursor/rules" "$HOME/.cursor/skills"
 cp "rules/global-fundamentals.mdc" "$HOME/.cursor/rules/global-fundamentals.mdc"
 cp -R "skills/coding-fundamentals" "$HOME/.cursor/skills/"
+cp -R "skills/grill-me" "$HOME/.cursor/skills/"
 ```
 
 ## Installing Optional Rule Templates

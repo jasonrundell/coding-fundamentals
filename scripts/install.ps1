@@ -54,6 +54,10 @@ Copy-SafeDirectory `
     -Source (Join-Path $RepoRoot "skills/coding-fundamentals") `
     -Destination (Join-Path $SkillsTarget "coding-fundamentals")
 
+Copy-SafeDirectory `
+    -Source (Join-Path $RepoRoot "skills/grill-me") `
+    -Destination (Join-Path $SkillsTarget "grill-me")
+
 Write-Host ""
 Write-Host "Install complete."
 Write-Host "Optional project rule templates remain in: $(Join-Path $RepoRoot 'rules')"
