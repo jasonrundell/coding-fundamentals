@@ -37,11 +37,12 @@ For a new project, use this pack to establish lightweight defaults before the fi
 Prompt:
 
 ```text
-Use the fundamentals guidance to help set up this new project for AI-assisted development. Start by creating a lean PROJECT_INDEX.md, then recommend which optional rule templates should be copied into .cursor/rules for this stack. Do not add unrelated rules.
+Use the coding-fundamentals skill to help set up this new project for AI-assisted development. Start by creating a lean PROJECT_INDEX.md, then recommend which optional rule templates should be copied into .cursor/rules for this stack. Do not add unrelated rules.
 ```
 
 Expected result:
 
+- The agent loads the `coding-fundamentals` skill for the setup workflow.
 - The agent reads the repo structure before proposing rules.
 - `PROJECT_INDEX.md` explains the important directories, project purpose, and when agents should read key files.
 - Only relevant templates are suggested. For example, a React app may use `react-typescript.mdc`, `web-accessibility-seo.mdc`, `css-style-reuse.mdc`, and `documentation.mdc`; a backend-only project may skip UI rules.
