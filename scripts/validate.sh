@@ -66,6 +66,7 @@ check_rule() {
 
 required_files=(
   "README.md"
+  "SOUL.md"
   "PROJECT_INDEX.md"
   "docs/concepts.md"
   "docs/deduplication.md"

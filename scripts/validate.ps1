@@ -76,6 +76,7 @@ function Check-Rule {
 
 $RequiredFiles = @(
     "README.md",
+    "SOUL.md",
     "PROJECT_INDEX.md",
     "docs/concepts.md",
     "docs/deduplication.md",

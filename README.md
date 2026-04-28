@@ -33,6 +33,8 @@ Install the tiny global rule everywhere, then opt into rule templates and skills
 
 Avoid making the entire philosophy always-on. The full orchestrator skill contains workflow detail and source references; use it when needed rather than injecting it into every conversation.
 
+Read `SOUL.md` when you need the compact project philosophy behind those choices.
+
 ## Quick Start
 
 Read `docs/install.md` for platform-specific instructions.

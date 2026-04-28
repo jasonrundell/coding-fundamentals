@@ -45,7 +45,8 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 │       └── SKILL.md
 ├── LICENSE
 ├── PROJECT_INDEX.md
-└── README.md
+├── README.md
+└── SOUL.md
 ```
 
 ## Files
@@ -53,6 +54,7 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 | Path | Purpose | Read When |
 | --- | --- | --- |
 | `README.md` | Public overview, quick start, contribution notes, and rule strategy. | Explaining the project or onboarding a user. |
+| `SOUL.md` | Compact statement of the project philosophy, beliefs, and taste. | Checking whether new guidance fits the spirit of the pack. |
 | `PROJECT_INDEX.md` | AI-oriented map of the repo and maintenance rules. | Starting any task or changing project structure. |
 | `LICENSE` | MIT license for open-source use. | Answering license or reuse questions. |
 | `rules/global-fundamentals.mdc` | Tiny always-on rule for sustainable AI-assisted coding across projects. | Installing personal global Cursor guidance. |
