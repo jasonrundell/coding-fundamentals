@@ -79,7 +79,7 @@ required_files=(
   "scripts/validate.ps1"
   "scripts/validate.sh"
   "rules/global-fundamentals.mdc"
-  "skills/fundamentals-skill-orchestrator/SKILL.md"
+  "skills/coding-fundamentals/SKILL.md"
 )
 
 for file in "${required_files[@]}"; do

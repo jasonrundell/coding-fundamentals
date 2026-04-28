@@ -1,5 +1,5 @@
 ---
-name: fundamentals-skill-orchestrator
+name: coding-fundamentals
 description: >-
   Distills software-fundamentals-for-AI-coding principles (design concept before
   assets, ubiquitous language, feedback loops/TDD, deep modules, interface-first
@@ -10,11 +10,11 @@ description: >-
   v4F1gFy-hqg transcript or “fundamentals matter more” AI coding philosophy.
 ---
 
-# Fundamentals skill orchestrator
+# Coding fundamentals
 
 ## Source
 
-Principles distilled from the AI-assisted coding talk captured in [YouTube: v4F1gFy-hqg](https://www.youtube.com/watch?v=v4F1gFy-hqg). Full auto-caption transcript: [v4F1gFy-hqg-transcript.md](../../../v4F1gFy-hqg-transcript.md) (repo root).
+Principles distilled from the AI-assisted coding talk captured in [YouTube: v4F1gFy-hqg](https://www.youtube.com/watch?v=v4F1gFy-hqg). Full auto-caption transcript: [v4F1gFy-hqg-transcript.md](../../v4F1gFy-hqg-transcript.md) (repo root, if included).
 
 ## Thesis (carry into every child skill)
 
@@ -33,7 +33,7 @@ When authoring child skills, encode the above as non-negotiable context (short r
 
 1. **Confirm scope** with the user: personal (`~/.cursor/skills/`) vs project (`.cursor/skills/`), and which child skills they already have.
 2. **Read** Cursor’s create-skill guidance (`create-skill` skill): frontmatter, description rules, concise body, progressive disclosure, ≤500 lines for `SKILL.md`.
-3. **Read token-efficiency guidance** when available (`token-efficiency` skill): carry only the minimum reusable rules into each child skill; do not duplicate the whole skill.
+3. **Read token-efficiency guidance** if installed (`token-efficiency` skill): carry only the minimum reusable rules into each child skill; do not duplicate the whole skill.
 4. **Create or update child skills in the order below.** Each new skill gets its own directory `skill-name/SKILL.md`. Do not bundle unrelated workflows into one giant skill—match **one primary principle** per skill so descriptions stay discoverable.
 5. **Cross-link:** In each child skill’s body, mention the sibling skills by **name** (“After shared understanding, open the ubiquitous-language skill…”) so the agent can chain workflows.
 6. **Verify:** Third-person description with WHAT + WHEN; triggers include domain terms from that skill; no Windows backslash paths.
@@ -52,7 +52,7 @@ Every child skill should:
 - Name the smallest useful artifact: glossary, decision ledger, failing test, module map, or interface delta—not a sprawling plan.
 - Treat repeated instructions as skill/rule material instead of retyping them into prompts.
 
-Apply these mappings from the `token-efficiency` skill:
+Apply these mappings from token-efficiency practice:
 
 - **Prompt signal-to-noise** supports `grill-me`: ask dense, dependency-aware questions and summarize decisions, not every conversational turn.
 - **Document ingestion** supports `ubiquitous-language`: extract terms from clean Markdown or code search, not pasted rich files.

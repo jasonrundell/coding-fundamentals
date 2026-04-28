@@ -16,7 +16,7 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 │   ├── rules/
 │   │   └── project-index.mdc
 │   └── skills/
-│       └── fundamentals-skill-orchestrator/
+│       └── coding-fundamentals/
 │           └── SKILL.md
 ├── docs/
 │   ├── concepts.md
@@ -41,7 +41,7 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 │   ├── validate.ps1
 │   └── validate.sh
 ├── skills/
-│   └── fundamentals-skill-orchestrator/
+│   └── coding-fundamentals/
 │       └── SKILL.md
 ├── LICENSE
 ├── PROJECT_INDEX.md
@@ -63,8 +63,8 @@ Lean index for AI agents working in this repo. Read this first to understand wha
 | `rules/web-accessibility-seo.mdc` | Optional accessibility and SEO quality rule. | Editing web UI, routed pages, or user-facing markup. |
 | `rules/css-style-reuse.mdc` | Optional style reuse rule for class strings, styling modules, and design tokens. | Editing repeated classes or component styling. |
 | `rules/documentation.mdc` | Optional portable documentation rule. | Writing or updating docs, rules, skills, or install instructions. |
-| `skills/fundamentals-skill-orchestrator/SKILL.md` | Canonical reusable skill that orchestrates the fundamentals child-skill family. | Creating, refreshing, or reviewing the fundamentals skill stack. |
-| `.cursor/skills/fundamentals-skill-orchestrator/SKILL.md` | Local/project copy of the orchestrator skill. | Using this repo inside Cursor as a consumer example. |
+| `skills/coding-fundamentals/SKILL.md` | Canonical reusable skill that orchestrates the fundamentals child-skill family. | Creating, refreshing, or reviewing the fundamentals skill stack. |
+| `.cursor/skills/coding-fundamentals/SKILL.md` | Local/project copy of the orchestrator skill. | Using this repo inside Cursor as a consumer example. |
 | `.cursor/rules/project-index.mdc` | Local/project rule reminding agents to keep this index current. | Editing files in this repo that affect navigation. |
 | `docs/concepts.md` | Short explanation of the fundamentals behind the pack. | Explaining why the pack is structured this way. |
 | `docs/install.md` | Windows, macOS, and Linux install instructions. | Installing globally or copying optional templates. |

@@ -50,8 +50,8 @@ copy_safe_file \
   "$rules_target/global-fundamentals.mdc"
 
 copy_safe_directory \
-  "$repo_root/skills/fundamentals-skill-orchestrator" \
-  "$skills_target/fundamentals-skill-orchestrator"
+  "$repo_root/skills/coding-fundamentals" \
+  "$skills_target/coding-fundamentals"
 
 echo ""
 echo "Install complete."

@@ -12,7 +12,7 @@ The scripts are conservative. They create folders and copy missing files, but th
 Recommended personal global install:
 
 - `rules/global-fundamentals.mdc`
-- `skills/fundamentals-skill-orchestrator/`
+- `skills/coding-fundamentals/`
 
 Optional project templates:
 
@@ -44,7 +44,7 @@ Manual install:
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.cursor\rules" | Out-Null
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.cursor\skills" | Out-Null
 Copy-Item "rules\global-fundamentals.mdc" "$env:USERPROFILE\.cursor\rules\global-fundamentals.mdc"
-Copy-Item "skills\fundamentals-skill-orchestrator" "$env:USERPROFILE\.cursor\skills\" -Recurse
+Copy-Item "skills\coding-fundamentals" "$env:USERPROFILE\.cursor\skills\" -Recurse
 ```
 
 ## macOS
@@ -73,7 +73,7 @@ Manual install:
 ```bash
 mkdir -p "$HOME/.cursor/rules" "$HOME/.cursor/skills"
 cp "rules/global-fundamentals.mdc" "$HOME/.cursor/rules/global-fundamentals.mdc"
-cp -R "skills/fundamentals-skill-orchestrator" "$HOME/.cursor/skills/"
+cp -R "skills/coding-fundamentals" "$HOME/.cursor/skills/"
 ```
 
 ## Linux
@@ -102,7 +102,7 @@ Manual install:
 ```bash
 mkdir -p "$HOME/.cursor/rules" "$HOME/.cursor/skills"
 cp "rules/global-fundamentals.mdc" "$HOME/.cursor/rules/global-fundamentals.mdc"
-cp -R "skills/fundamentals-skill-orchestrator" "$HOME/.cursor/skills/"
+cp -R "skills/coding-fundamentals" "$HOME/.cursor/skills/"
 ```
 
 ## Installing Optional Rule Templates

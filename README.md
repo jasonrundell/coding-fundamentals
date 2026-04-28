@@ -16,7 +16,7 @@ The pack turns a few durable software fundamentals into Cursor guidance:
 
 - `rules/global-fundamentals.mdc`: tiny always-on rule for personal global use.
 - `rules/*.mdc`: optional rule templates for common project concerns.
-- `skills/fundamentals-skill-orchestrator/SKILL.md`: opt-in skill for creating or refreshing the full fundamentals skill family.
+- `skills/coding-fundamentals/SKILL.md`: opt-in skill for creating or refreshing the full fundamentals skill family.
 - `docs/concepts.md`: short explanation of the core principles.
 - `docs/install.md`: Windows, macOS, and Linux install instructions.
 - `docs/onboarding.md`: practical prompts and expected outcomes for new and existing projects.
@@ -41,7 +41,7 @@ Use `docs/onboarding.md` after installation for real-world prompts that apply th
 Typical setup:
 
 1. Copy `rules/global-fundamentals.mdc` into your user-level Cursor rules.
-2. Copy `skills/fundamentals-skill-orchestrator/` into your user-level Cursor skills.
+2. Copy `skills/coding-fundamentals/` into your user-level Cursor skills.
 3. Copy optional `rules/*.mdc` templates into projects that need them.
 4. Use `docs/deduplication.md` to remove duplicate local guidance.
 

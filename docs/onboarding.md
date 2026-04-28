@@ -137,7 +137,7 @@ Use the orchestrator skill when the task is about creating, refreshing, or revie
 Prompt:
 
 ```text
-Use the fundamentals-skill-orchestrator skill to review our current AI guidance. Identify which child skills or rules should exist, where responsibilities overlap, and what the smallest durable improvement would be.
+Use the coding-fundamentals skill to review our current AI guidance. Identify which child skills or rules should exist, where responsibilities overlap, and what the smallest durable improvement would be.
 ```
 
 Expected result:
@@ -149,7 +149,7 @@ Expected result:
 Prompt:
 
 ```text
-Use the fundamentals-skill-orchestrator skill to turn this repeated workflow issue into reusable guidance: agents keep editing broad files without checking the project index first. Propose the smallest rule, skill, or doc update and explain how to validate it.
+Use the coding-fundamentals skill to turn this repeated workflow issue into reusable guidance: agents keep editing broad files without checking the project index first. Propose the smallest rule, skill, or doc update and explain how to validate it.
 ```
 
 Expected result:

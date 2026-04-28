@@ -51,8 +51,8 @@ Copy-SafeFile `
     -Destination (Join-Path $RulesTarget "global-fundamentals.mdc")
 
 Copy-SafeDirectory `
-    -Source (Join-Path $RepoRoot "skills/fundamentals-skill-orchestrator") `
-    -Destination (Join-Path $SkillsTarget "fundamentals-skill-orchestrator")
+    -Source (Join-Path $RepoRoot "skills/coding-fundamentals") `
+    -Destination (Join-Path $SkillsTarget "coding-fundamentals")
 
 Write-Host ""
 Write-Host "Install complete."
