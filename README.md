@@ -12,7 +12,7 @@ The pack turns a few durable software fundamentals into Cursor guidance:
 - Design interfaces deliberately, then delegate implementation behind tests.
 - Keep context lean so the agent spends attention on the work that matters.
 
-## What Is Included
+## What's Included
 
 - `rules/global-fundamentals.mdc`: tiny always-on rule for personal global use.
 - `rules/*.mdc`: optional rule templates for common project concerns.
@@ -37,8 +37,8 @@ Read `SOUL.md` when you need the compact project philosophy behind those choices
 
 ## Quick Start
 
-Read `docs/install.md` for platform-specific instructions.
-Use `docs/onboarding.md` after installation for real-world prompts that apply the rules and skills to new or existing projects.
+Read the [install guide](docs/install.md) for platform-specific instructions.
+Use the [onboarding guide](docs/onboarding.md) after installation for real-world prompts that apply the rules and skills to new or existing projects.
 
 Typical setup:
 
